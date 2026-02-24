@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Snippet Manager</title>
+</head>
+<body>
+    <h1>Code Snippet Manager</h1>
+
+    <h2>Add Snippet</h2>
+    <form id="snippetForm">
+        <input type="text" id="title" placeholder="Title" required><br>
+        <input type="text" id="language" placeholder="Language"><br>
+        <input type="text" id="tags" placeholder="Tags (comma separated)"><br>
+        <textarea id="code" placeholder="Your code here..." required></textarea><br>
+        <button type="submit">Add Snippet</button>
+    </form>
+
+    <h2>All Snippets</h2>
+    <div id="snippets"></div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
